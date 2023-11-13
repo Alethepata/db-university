@@ -17,7 +17,7 @@ SELECT * FROM `exams` WHERE `date`= '2020-06-20' AND `hour` > '14:00:00';
 SELECT * FROM `degrees` WHERE `name` LIKE '%magistrale%'; 
 
 // 7
-SELECT * FROM `departments`; 
+SELECT COUNT(*) AS `totale_dipartimenti` FROM `departments`;  
 
 // 8
-SELECT * FROM `teachers` WHERE `phone` IS NULL; 
+SELECT COUNT(*) AS `totale_insegnanti_senza_numero_di_telefono` FROM `teachers` WHERE `phone` IS NULL; 
