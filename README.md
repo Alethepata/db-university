@@ -20,6 +20,8 @@ Modellizzare la struttura di un database per memorizzare tutti i dati riguardant
 
 #
 
+**SELECT**
+
 Dopo aver creato un nuovo database nel vostro phpMyAdmin e aver importato lo schema allegato, eseguite le query del file allegato.
 
 1. Selezionare tutti gli studenti nati nel 1990 (160)
@@ -39,3 +41,15 @@ laurea (286)
 7. Da quanti dipartimenti è composta l'università? (12)
 
 8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
+
+#
+
+**GROUP BY**
+
+1. Contare quanti iscritti ci sono stati ogni anno
+
+2. Contare gli insegnanti che hanno l'ufficio nello stesso edificio
+
+3. Calcolare la media dei voti di ogni appello d'esame
+
+4. Contare quanti corsi di laurea ci sono per ogni dipartimento
