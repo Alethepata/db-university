@@ -41,8 +41,7 @@ INNER JOIN `course_teacher`
 ON `courses`.`id` = `course_teacher`.`course_id`
 INNER JOIN `teachers`
 ON `course_teacher`.`teacher_id` = `teachers`.`id`
-WHERE `teachers`.`name` = 'fulvio'
-AND `teachers`.`surname` = 'amato';
+WHERE `teachers`.`id` = 44;
 
 // 4
 
